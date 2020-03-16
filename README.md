@@ -1,0 +1,1 @@
+# aem-shortcut-extension
