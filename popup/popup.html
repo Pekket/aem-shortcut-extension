@@ -2,10 +2,27 @@
 <html>
 <head>
     <title>AEM shortcut extension</title>
+    <style>
+        body {
+            width: 190px;
+        }
+        a:link, a:visited {
+            width: fit-content;
+            background-color: #f44336;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        a:hover, a:active {
+            background-color: red;
+        }
+    </style>
 </head>
-<body style="width:200px;">
-    <p id="title">AEM shortcut extension</p>
-    <a href="chrome://extensions/shortcuts">Edit your shortcuts here</a>
-    <script src="popup.js"></script>
+<body>
+<a href="chrome://extensions/shortcuts">Edit your shortcuts here</a>
+<script src="popup.js"></script>
 </body>
 </html>
