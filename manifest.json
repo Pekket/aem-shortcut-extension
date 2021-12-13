@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "AEM shortcut extension",
+  "name": "AEM Forms shortcuts extension",
   "version": "1.0",
   "browser_action": {
     "default_popup": "popup/popup.html"
@@ -12,8 +12,7 @@
     "128": "images/aem128.png"
   },
   "permissions": [
-    "tabs",
-    "declarativeContent"
+    "tabs"
   ],
   "background": {
     "scripts": [
